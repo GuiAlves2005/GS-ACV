@@ -1,5 +1,0 @@
-numpy
-matplotlib
-tensorflow    
-opencv-python
-streamlit
