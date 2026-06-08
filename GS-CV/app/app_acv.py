@@ -9,14 +9,12 @@ st.title("📸 SpaceData Triage - Visão Computacional")
 st.markdown("### Módulo ACV: Triagem de Imagens Orbitais")
 st.info("A interface carregou com sucesso! O sistema está pronto para receber a imagem.")
 
-# O upload vem primeiro
 uploaded_file = st.file_uploader("Escolha uma imagem JPG", type="jpg")
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption="Imagem Satelital", width=300)
     
-    # Só tenta carregar o peso do modelo SE o botão for apertado
     if st.button("Executar Triagem Visual", use_container_width=True):
         with st.spinner("Acordando a Inteligência Artificial e processando os filtros convolucionais..."):
             
