@@ -61,7 +61,7 @@ python -m streamlit run app/app_acv.py --server.port 8502
 O aplicativo abrirá no navegador pronto para receber uploads e realizar a triagem visual.
 
 
-**Integrantes:**
-Guilherme Alves de Lima Rm 550433
+##Integrantes:
+**Guilherme Alves de Lima Rm 550433
 Bruno Venturi Lopes Vieira Rm 99431
-Leonardo Ruiz Rm 98901
+Leonardo Ruiz Rm 98901**
