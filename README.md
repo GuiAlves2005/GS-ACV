@@ -4,6 +4,11 @@ Bem-vindo ao repositório de Applied Computer Vision (ACV) do projeto **SpaceDat
 
 Como estudante de Engenharia de Software, desenvolvi este módulo para resolver o problema de transmissão de dados visuais inúteis na nova economia espacial. Satélites capturam milhares de imagens por dia, mas muitas delas estão completamente obstruídas por nuvens densas ou ruído nos sensores. Nossa solução utiliza Redes Neurais Convolucionais (CNNs) para classificar imagens em "Limpas" (terreno visível) ou "Obstruídas" (nuvens/ruído), descartando o lixo na própria órbita para economizar banda e processamento na Terra.
 
+**Integrantes:
+Guilherme Alves de Lima Rm 550433
+Bruno Venturi Lopes Vieira Rm 99431
+Leonardo Ruiz Rm 98901**
+
 ---
 
 ## 1. O Dataset Sintético
@@ -59,9 +64,3 @@ python -m streamlit run app/app_acv.py --server.port 8502
 `
 
 O aplicativo abrirá no navegador pronto para receber uploads e realizar a triagem visual.
-
-
-**Integrantes:
-Guilherme Alves de Lima Rm 550433
-Bruno Venturi Lopes Vieira Rm 99431
-Leonardo Ruiz Rm 98901**
