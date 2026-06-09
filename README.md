@@ -26,7 +26,7 @@ Para garantir a melhor performance técnica, construí e comparei duas arquitetu
 
 
 **Análise Técnica:**
-O modelo "CNN Robusta" provou ser imensamente superior. Como demonstrado no gráfico de perda (Loss), a rede robusta minimizou o erro quase a zero logo na primeira época de treinamento, extraindo os padrões das nuvens com alta eficácia, enquanto a arquitetura simples levou muito mais tempo para estabilizar. A acurácia atingiu a métrica exigida com folga. O modelo robusto foi salvo como `.h5` para o deploy.
+O modelo "CNN Simples" provou ser imensamente superior. Como demonstrado no gráfico de perda (Loss), a rede simples minimizou o erro quase a zero logo na primeira época de treinamento, extraindo os padrões das nuvens com alta eficácia, enquanto a arquitetura robusta levou muito mais tempo para estabilizar. A acurácia atingiu a métrica exigida com folga. O modelo robusto foi salvo como `.h5` para o deploy.
 
 ## 4. Deploy da Aplicação Visual
 Desenvolvi uma interface interativa com **Streamlit** para o consumo do modelo treinado. O usuário pode fazer o upload de uma imagem capturada e a IA embarcada retorna a classificação instantaneamente, simulando o ambiente do satélite.
