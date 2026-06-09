@@ -64,3 +64,6 @@ python -m streamlit run app/app_acv.py --server.port 8502
 `
 
 O aplicativo abrirá no navegador pronto para receber uploads e realizar a triagem visual.
+
+**LINK DO VIDEO
+https://youtu.be/otMjxdCPzE8**
